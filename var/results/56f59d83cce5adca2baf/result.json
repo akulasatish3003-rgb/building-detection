@@ -1,0 +1,990 @@
+{
+  "result_id": "56f59d83cce5adca2baf",
+  "new_building_count": 17,
+  "image_dimensions": {
+    "width": 1000,
+    "height": 1000
+  },
+  "coordinate_system": "[x, y] pixels on latest image, origin top-left; closed exterior rings",
+  "preview_urls": {
+    "earlier": "/results/56f59d83cce5adca2baf/earlier.png",
+    "latest": "/results/56f59d83cce5adca2baf/latest.png"
+  },
+  "alignment": {
+    "method": "georeprojection only",
+    "inliers": 0,
+    "median_residual_px": null,
+    "tie_points": [],
+    "note": "Visual matching was not reliable; retained the supplied GeoTIFF registration. Roof parallax remains.",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "overlap_fraction": 0.999,
+    "georeferenced": true
+  },
+  "warnings": [
+    "Candidate buildings require visual review; scores are not calibrated confidence.",
+    "Visual matching was not reliable; retained the supplied GeoTIFF registration. Roof parallax remains.",
+    "Some attached roofs were inferred from repeated roof edges."
+  ],
+  "result_url": "/results/56f59d83cce5adca2baf/result.json",
+  "detections": [
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.9349,
+      "earlier_building_score": 0.0073,
+      "polygon": [
+        [
+          276.0,
+          75.0
+        ],
+        [
+          261.0,
+          75.0
+        ],
+        [
+          258.0,
+          103.0
+        ],
+        [
+          267.0,
+          107.0
+        ],
+        [
+          275.0,
+          107.0
+        ],
+        [
+          280.0,
+          77.0
+        ],
+        [
+          276.0,
+          75.0
+        ]
+      ],
+      "area": {
+        "value": 50.85,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        268.69,
+        90.34
+      ],
+      "id": "N01"
+    },
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.9236,
+      "earlier_building_score": 0.0062,
+      "polygon": [
+        [
+          856.0,
+          61.0
+        ],
+        [
+          854.0,
+          63.0
+        ],
+        [
+          851.0,
+          80.0
+        ],
+        [
+          847.0,
+          88.0
+        ],
+        [
+          848.0,
+          94.0
+        ],
+        [
+          846.0,
+          107.0
+        ],
+        [
+          848.0,
+          111.0
+        ],
+        [
+          850.0,
+          113.0
+        ],
+        [
+          855.0,
+          113.0
+        ],
+        [
+          873.0,
+          120.0
+        ],
+        [
+          891.0,
+          120.0
+        ],
+        [
+          896.0,
+          109.0
+        ],
+        [
+          900.0,
+          69.0
+        ],
+        [
+          893.0,
+          68.0
+        ],
+        [
+          885.0,
+          64.0
+        ],
+        [
+          870.0,
+          64.0
+        ],
+        [
+          865.0,
+          61.0
+        ],
+        [
+          856.0,
+          61.0
+        ]
+      ],
+      "area": {
+        "value": 232.11,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        873.32,
+        90.86
+      ],
+      "id": "N02"
+    },
+    {
+      "classification": "new",
+      "evidence": "contrast_recovery",
+      "building_score": 0.8653,
+      "earlier_building_score": 0.0053,
+      "polygon": [
+        [
+          925.0,
+          78.0
+        ],
+        [
+          923.0,
+          101.0
+        ],
+        [
+          925.0,
+          118.0
+        ],
+        [
+          930.0,
+          124.0
+        ],
+        [
+          938.0,
+          127.0
+        ],
+        [
+          941.0,
+          131.0
+        ],
+        [
+          945.0,
+          131.0
+        ],
+        [
+          948.0,
+          134.0
+        ],
+        [
+          952.0,
+          125.0
+        ],
+        [
+          953.0,
+          110.0
+        ],
+        [
+          957.0,
+          99.0
+        ],
+        [
+          957.0,
+          92.0
+        ],
+        [
+          963.0,
+          80.0
+        ],
+        [
+          959.0,
+          78.0
+        ],
+        [
+          958.0,
+          84.0
+        ],
+        [
+          954.0,
+          87.0
+        ],
+        [
+          951.0,
+          84.0
+        ],
+        [
+          942.0,
+          83.0
+        ],
+        [
+          935.0,
+          79.0
+        ],
+        [
+          925.0,
+          78.0
+        ]
+      ],
+      "area": {
+        "value": 128.52,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        939.95,
+        103.11
+      ],
+      "id": "N03",
+      "original_building_score": 0.8843
+    },
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.9194,
+      "earlier_building_score": 0.0169,
+      "polygon": [
+        [
+          173.0,
+          181.0
+        ],
+        [
+          168.0,
+          195.0
+        ],
+        [
+          167.0,
+          208.0
+        ],
+        [
+          160.0,
+          232.0
+        ],
+        [
+          159.0,
+          242.0
+        ],
+        [
+          156.0,
+          248.0
+        ],
+        [
+          151.0,
+          276.0
+        ],
+        [
+          149.0,
+          279.0
+        ],
+        [
+          149.0,
+          296.0
+        ],
+        [
+          152.0,
+          303.0
+        ],
+        [
+          158.0,
+          302.0
+        ],
+        [
+          162.0,
+          297.0
+        ],
+        [
+          168.0,
+          297.0
+        ],
+        [
+          168.0,
+          303.0
+        ],
+        [
+          171.0,
+          310.0
+        ],
+        [
+          176.0,
+          311.0
+        ],
+        [
+          183.0,
+          295.0
+        ],
+        [
+          196.0,
+          236.0
+        ],
+        [
+          206.0,
+          207.0
+        ],
+        [
+          207.0,
+          189.0
+        ],
+        [
+          173.0,
+          181.0
+        ]
+      ],
+      "area": {
+        "value": 390.82,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        176.82,
+        242.88
+      ],
+      "id": "N04"
+    },
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.8396,
+      "earlier_building_score": 0.0137,
+      "polygon": [
+        [
+          233.0,
+          386.0
+        ],
+        [
+          226.0,
+          391.0
+        ],
+        [
+          226.0,
+          394.0
+        ],
+        [
+          222.0,
+          398.0
+        ],
+        [
+          220.0,
+          414.0
+        ],
+        [
+          223.0,
+          418.0
+        ],
+        [
+          228.0,
+          420.0
+        ],
+        [
+          240.0,
+          420.0
+        ],
+        [
+          251.0,
+          423.0
+        ],
+        [
+          255.0,
+          414.0
+        ],
+        [
+          258.0,
+          390.0
+        ],
+        [
+          245.0,
+          388.0
+        ],
+        [
+          243.0,
+          386.0
+        ],
+        [
+          233.0,
+          386.0
+        ]
+      ],
+      "area": {
+        "value": 98.37,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        239.32,
+        404.13
+      ],
+      "id": "N05"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          194.06,
+          452.43
+        ],
+        [
+          245.08,
+          462.46
+        ],
+        [
+          253.19,
+          421.25
+        ],
+        [
+          202.17,
+          411.22
+        ],
+        [
+          194.06,
+          452.43
+        ]
+      ],
+      "centroid": [
+        223.62,
+        436.84
+      ],
+      "area": {
+        "value": 196.56,
+        "unit": "m\u00b2"
+      },
+      "id": "N06"
+    },
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.8435,
+      "earlier_building_score": 0.0086,
+      "polygon": [
+        [
+          373.0,
+          433.0
+        ],
+        [
+          370.0,
+          437.0
+        ],
+        [
+          369.0,
+          445.0
+        ],
+        [
+          365.0,
+          452.0
+        ],
+        [
+          365.0,
+          464.0
+        ],
+        [
+          373.0,
+          470.0
+        ],
+        [
+          374.0,
+          482.0
+        ],
+        [
+          376.0,
+          484.0
+        ],
+        [
+          381.0,
+          484.0
+        ],
+        [
+          385.0,
+          482.0
+        ],
+        [
+          386.0,
+          479.0
+        ],
+        [
+          390.0,
+          480.0
+        ],
+        [
+          391.0,
+          478.0
+        ],
+        [
+          391.0,
+          473.0
+        ],
+        [
+          399.0,
+          451.0
+        ],
+        [
+          400.0,
+          438.0
+        ],
+        [
+          373.0,
+          433.0
+        ]
+      ],
+      "area": {
+        "value": 112.45,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        382.01,
+        456.24
+      ],
+      "id": "N07"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          195.56,
+          491.45
+        ],
+        [
+          237.75,
+          499.75
+        ],
+        [
+          245.08,
+          462.46
+        ],
+        [
+          202.89,
+          454.16
+        ],
+        [
+          195.56,
+          491.45
+        ]
+      ],
+      "centroid": [
+        220.32,
+        476.96
+      ],
+      "area": {
+        "value": 147.06,
+        "unit": "m\u00b2"
+      },
+      "id": "N08"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          186.1,
+          539.53
+        ],
+        [
+          227.31,
+          547.64
+        ],
+        [
+          236.77,
+          499.56
+        ],
+        [
+          195.56,
+          491.45
+        ],
+        [
+          186.1,
+          539.53
+        ]
+      ],
+      "centroid": [
+        211.43,
+        519.54
+      ],
+      "area": {
+        "value": 185.22,
+        "unit": "m\u00b2"
+      },
+      "id": "N09"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          171.48,
+          567.23
+        ],
+        [
+          221.52,
+          577.07
+        ],
+        [
+          227.31,
+          547.64
+        ],
+        [
+          177.27,
+          537.79
+        ],
+        [
+          171.48,
+          567.23
+        ]
+      ],
+      "centroid": [
+        199.39,
+        557.43
+      ],
+      "area": {
+        "value": 137.7,
+        "unit": "m\u00b2"
+      },
+      "id": "N10"
+    },
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.921,
+      "earlier_building_score": 0.0076,
+      "polygon": [
+        [
+          353.0,
+          550.0
+        ],
+        [
+          346.0,
+          553.0
+        ],
+        [
+          344.0,
+          558.0
+        ],
+        [
+          341.0,
+          560.0
+        ],
+        [
+          339.0,
+          581.0
+        ],
+        [
+          344.0,
+          584.0
+        ],
+        [
+          372.0,
+          585.0
+        ],
+        [
+          376.0,
+          569.0
+        ],
+        [
+          380.0,
+          560.0
+        ],
+        [
+          382.0,
+          559.0
+        ],
+        [
+          382.0,
+          554.0
+        ],
+        [
+          364.0,
+          550.0
+        ],
+        [
+          353.0,
+          550.0
+        ]
+      ],
+      "area": {
+        "value": 106.92,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        359.22,
+        567.39
+      ],
+      "id": "N11"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          162.1,
+          640.8
+        ],
+        [
+          206.25,
+          649.49
+        ],
+        [
+          211.66,
+          622.01
+        ],
+        [
+          167.5,
+          613.33
+        ],
+        [
+          162.1,
+          640.8
+        ]
+      ],
+      "centroid": [
+        186.88,
+        631.41
+      ],
+      "area": {
+        "value": 113.4,
+        "unit": "m\u00b2"
+      },
+      "id": "N12"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          151.87,
+          692.8
+        ],
+        [
+          196.02,
+          701.49
+        ],
+        [
+          206.25,
+          649.49
+        ],
+        [
+          162.1,
+          640.8
+        ],
+        [
+          151.87,
+          692.8
+        ]
+      ],
+      "centroid": [
+        179.06,
+        671.15
+      ],
+      "area": {
+        "value": 214.65,
+        "unit": "m\u00b2"
+      },
+      "id": "N13"
+    },
+    {
+      "classification": "new",
+      "evidence": "segmentation",
+      "building_score": 0.875,
+      "earlier_building_score": 0.0056,
+      "polygon": [
+        [
+          226.0,
+          661.0
+        ],
+        [
+          224.0,
+          667.0
+        ],
+        [
+          225.0,
+          709.0
+        ],
+        [
+          227.0,
+          711.0
+        ],
+        [
+          238.0,
+          712.0
+        ],
+        [
+          247.0,
+          716.0
+        ],
+        [
+          260.0,
+          716.0
+        ],
+        [
+          263.0,
+          711.0
+        ],
+        [
+          265.0,
+          693.0
+        ],
+        [
+          268.0,
+          687.0
+        ],
+        [
+          269.0,
+          668.0
+        ],
+        [
+          260.0,
+          667.0
+        ],
+        [
+          245.0,
+          661.0
+        ],
+        [
+          226.0,
+          661.0
+        ]
+      ],
+      "area": {
+        "value": 189.54,
+        "unit": "m\u00b2"
+      },
+      "centroid": [
+        245.23,
+        687.66
+      ],
+      "id": "N14"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          144.95,
+          738.33
+        ],
+        [
+          187.14,
+          746.63
+        ],
+        [
+          196.02,
+          701.49
+        ],
+        [
+          153.83,
+          693.19
+        ],
+        [
+          144.95,
+          738.33
+        ]
+      ],
+      "centroid": [
+        170.49,
+        719.91
+      ],
+      "area": {
+        "value": 178.02,
+        "unit": "m\u00b2"
+      },
+      "id": "N15"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          135.46,
+          776.21
+        ],
+        [
+          178.63,
+          784.7
+        ],
+        [
+          186.16,
+          746.43
+        ],
+        [
+          142.99,
+          737.94
+        ],
+        [
+          135.46,
+          776.21
+        ]
+      ],
+      "centroid": [
+        160.81,
+        761.32
+      ],
+      "area": {
+        "value": 154.44,
+        "unit": "m\u00b2"
+      },
+      "id": "N16"
+    },
+    {
+      "classification": "new",
+      "evidence": "attached_roof_heuristic",
+      "polygon": [
+        [
+          128.3,
+          807.41
+        ],
+        [
+          172.46,
+          816.1
+        ],
+        [
+          178.63,
+          784.7
+        ],
+        [
+          134.48,
+          776.01
+        ],
+        [
+          128.3,
+          807.41
+        ]
+      ],
+      "centroid": [
+        153.47,
+        796.05
+      ],
+      "area": {
+        "value": 129.6,
+        "unit": "m\u00b2"
+      },
+      "id": "N17"
+    }
+  ]
+}
